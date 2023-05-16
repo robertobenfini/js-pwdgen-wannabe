@@ -8,7 +8,7 @@ let cognome= prompt ("Qual è il tuo cognome?");
 let colore= prompt ("Qual è il tuo colore preferito?");
 
 // variabile password
-let password = (nome + cognome + colore + 21);
+let password = `${nome}${cognome}${colore}21`;
 
 // password
-document.getElementById ("password").innerHTML = `${password}`;
+document.getElementById ("password").innerHTML = (password);
